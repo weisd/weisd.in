@@ -77,11 +77,11 @@ theme: clover
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: git@github.com:weisd/weisd.github.io.git
-  branch: master
-  delete: false
+# deploy:
+#   type: git
+#   repo: git@github.com:weisd/weisd.github.io.git
+#   branch: master
+#   delete: false
 
 # Custom nav
 nav:
