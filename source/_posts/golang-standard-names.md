@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Go语言命名规范
+title: Go语言命名规范
 tags: 
   - Develop
   - Go
-excerpt: Go语言命名规范
+excerpt: Go语言命名规范
 
 date: 2018-11-10 05:27:51
 ---
