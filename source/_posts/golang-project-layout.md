@@ -12,4 +12,4 @@ date: 2018-11-09 16:36:41
 
 # Go项目目录结构
 
-coming soon...
+<https://github.com/golang-standards/project-layout>

@@ -15,6 +15,8 @@ date: 2018-11-10 00:22:39
 
 ## 1. 在Github生成Travis访问Github的Token
 
+<https://github.com/settings/tokens>
+
 Setting > Developer settings > Personal access tokens > Generate new token 
 
 输入一个名称， 勾选 repo，拉到底部 点击 Generate token 按钮提交
@@ -84,4 +86,4 @@ deploy:
 
 ## 4. 更新Travis使用配置，参数官方文档
 
-https://docs.travis-ci.com/
+<https://docs.travis-ci.com/>
