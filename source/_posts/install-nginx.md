@@ -28,3 +28,32 @@ sudo yum install nginx
 sudo systemctl start nginx
 ```
 
+## D
+
+```sh
+sudo systemctl enable nginx
+```
+
+## 代码配置参考
+
+```sh
+vi /etc/nginx/conf.d/proxy.conf
+```
+
+```conf
+server {
+    listen       80;
+    server_name drone.weisd.in;
+
+    location / {
+        proxy_pass http://localhost:10081;
+        proxy_set_header Host $host:$server_port;
+    }
+}
+```
+
+## 检查配置并重启
+
+```sh
+nginx -t && nginx -s reload
+```
