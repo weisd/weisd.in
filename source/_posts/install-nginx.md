@@ -4,7 +4,7 @@ title: 安装Nginx
 tags: 
   - Nginx
   - CentOS
-excerpt: 安装Nginx
+excerpt: 安装Nginx，配置代理
 date: 2018-11-10 01:00:20
 ---
 
