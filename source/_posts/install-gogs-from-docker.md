@@ -32,11 +32,19 @@ mkdir -p /data/gogs
 docker run -d --name=gogs -p 10022:22 -p 10080:3000 -v /data/gogs:/data --restart=always gogs/gogs
 ```
 
+## 添加Nginx代理
+
+参考
+
+[Nginx安装](../install-nginx)
+
 ## 访问安装
 
-访问 http://localhost:10022安装
+访问 http://git.weisd.in
 
-注意安装过程中的SSH端口，HTTP端口是Docker容器内的端口号，就是22和3000
+注意改成你的域名
+
+安装过程中的SSH端口，HTTP端口是Docker容器内的端口号，就是22和3000
 
 ## 3. 关闭注册功能
 
