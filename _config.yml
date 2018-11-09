@@ -79,7 +79,7 @@ theme: clover
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:weisd/weisd.github.io.git
+  repo: https://gh_token@github.com/weisd/weisd.github.io.git
   branch: master
 
 
