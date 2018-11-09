@@ -7,7 +7,7 @@ excerpt: Go编写规范
 date: 2018-11-09 16:14:26
 tags: 
   - Go
-  - develop
+  - Develop
 ---
 
 # Go编写规范
