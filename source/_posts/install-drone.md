@@ -33,8 +33,10 @@ vi ~/.dronerc
 写入如下内容，注意改成你自己的域名
 
 ```ini
+# gogs服务地址
 export DRONE_GOGS_SERVER=http://git.weisd.in
-export DRONE_SERVER_HOST=git.weisd.in
+# drone服务地址
+export DRONE_SERVER_HOST=drone.weisd.in
 export DRONE_SERVER_PROTO=http
 ```
 
