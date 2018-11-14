@@ -6,7 +6,7 @@ tags:
   - Go
   - Drone
 excerpt: 使用Drone自动远程部署Go项目
-date: 2018-11-12 16:14:27
+date: 2018-11-14 23:53:27
 ---
 
 # 使用Drone自动远程部署Go项目
