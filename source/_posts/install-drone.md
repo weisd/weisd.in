@@ -1,12 +1,16 @@
 ---
 layout: post
 title: 在CentOS上安装Drone1.0，使用Gogs
-tags: Develop
+tags: 
+  - Ops
+  - Drone
 excerpt: 在CentOS上安装Drone，使用Gogs
 date: 2018-11-10 01:06:47
 ---
 
 # 在CentOS上安装Drone，使用Gogs
+
+本文是drone1.0版本安装，1.0以下版本参考：[在CentOS上安装Drone1.0，使用Gogs](../install-drone08)
 
 ## 安装Nginx,Docker,Gogs
 
