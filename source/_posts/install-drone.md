@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 在CentOS上安装Drone，使用Gogs
+title: 在CentOS上安装Drone1.0，使用Gogs
 tags: Develop
 excerpt: 在CentOS上安装Drone，使用Gogs
 date: 2018-11-10 01:06:47
