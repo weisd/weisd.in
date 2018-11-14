@@ -70,6 +70,8 @@ if err := srv.ListenAndServe(); err != http.ErrServerClosed {
 
 标准库已经实现优雅重启，就用标准库吧
 
-注意! 
+注意!
 
 使用一些监控进程工具时，重启程序时，要确认是否发送kill指标就算完成关闭，如果说要等进程完全关闭再重启的话可能会存在重启中间间隔服务没响应的情况
+
+进阶：[Go结合WaitGroup安全关闭程序](../golang-gratefull-shutdown-with-waitgroup)
