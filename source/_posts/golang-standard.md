@@ -12,4 +12,4 @@ tags:
 
 # Go编写规范
 
-coming soon....
+<https://github.com/llitfkitfk/go-best-practice>
