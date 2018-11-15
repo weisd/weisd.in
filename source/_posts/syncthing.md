@@ -6,15 +6,15 @@ tags:
   - Go
   - Tools
 excerpt: 使用Syncthing在服务器间同步文件
-
+photos: [/images/syncthing.png]
 date: 2018-11-15 15:18:06
 ---
 
 # 使用Syncthing在服务器间同步文件
 
-Syncthing是Golang开发的同步文件工具, 比起rsync来，操作实在是太简单了，还有GUI界面可以看到实时同步情况
+[Syncthing](https://github.com/syncthing/syncthing)是Golang开发的同步文件工具, 比起rsync来，操作实在是太简单了，还有GUI界面可以看到实时同步情况
 
-<https://github.com/syncthing/syncthing>
+![Syncting](/images/syncthing.png)
 
 ## 下载
 
