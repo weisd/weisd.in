@@ -1,15 +1,18 @@
 ---
 layout: post
-title: 使用syncthing在服务器间同步文件
-tags: Develop
-excerpt: 使用syncthing在服务器间同步文件
+title: 使用Syncthing在服务器间同步文件
+tags: 
+  - Ops
+  - Go
+  - Tools
+excerpt: 使用Syncthing在服务器间同步文件
 
 date: 2018-11-15 15:18:06
 ---
 
-# 使用syncthing在服务器间同步文件
+# 使用Syncthing在服务器间同步文件
 
-syncthing是Golang开发的同步文件工具, 比起rsync来，操作实在是太简单了，还有GUI界面可以看到实时同步情况
+Syncthing是Golang开发的同步文件工具, 比起rsync来，操作实在是太简单了，还有GUI界面可以看到实时同步情况
 
 <https://github.com/syncthing/syncthing>
 
@@ -55,7 +58,7 @@ vi ~/.config/syncthing/config.xml
 
 ## 添加设置
 
-把另一个运行了syncthing的设置添加进来
+把另一个运行了Syncthing的设置添加进来
 
 添加设备时需要设备ID， 在GUI右上操作->显示ID 可以查看
 
