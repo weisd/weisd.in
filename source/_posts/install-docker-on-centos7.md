@@ -32,7 +32,7 @@ sudo yum-config-manager \
 ## 安装Docker-CE
 
 ```sh
-sudo yum install docker-ce
+sudo yum -y install docker-ce
 ```
 
 ## 启动服务
@@ -52,6 +52,29 @@ sudo systemctl enable docker
 ```sh
 sudo docker run hello-world
 ```
+
+## 添加中国镜像加速
+
+修改 /etc/docker/daemon.json 文件并添加上 registry-mirrors 键值。
+
+```sh
+vi /etc/docker/daemon.json
+```
+
+内容:
+
+```json
+{
+  "registry-mirrors": ["https://registry.docker-cn.com"]
+}
+```
+
+重启服务
+
+```sh
+sudo systemctl restart docker
+```
+
 
 ### 官方文档
 
