@@ -30,6 +30,30 @@ date: 2018-11-20 15:54:14
 | value_unit | int | 权限单位: 个， 年，月，日 |
 | value_number | int | 对应单位数量值 |
 
+## 商品规格优惠 product_sku_discuss
+
+| 字段 | 类型 | 说明 |
+| --- | --- | --- |
+| id | int64 | id |
+| sku_id | int64 | sku_id |
+| disscuss_id | int64 | disscuss_id |
+| start_time | datetime | 开始时间 |
+| end_time | datetime | 结束时间 |
+| sort | int | 排序，多次规则优先级别 |
+| status | int | 是否应用 |
+
+## 商品优惠规则 product_disscuss
+
+| 字段 | 类型 | 说明 |
+| --- | --- | --- |
+| id | int64 | sku_id |
+| title | string | 名称 |
+| user_type | int | 适用用户类型 |
+| disscuss_type | int | 优惠类型：百分比打折，立减 |
+| disscuss_value | int | 类型对应优惠数值 |
+| intro | string | 简介 |
+| status | int | 是否应用 |
+
 ## 商品资源 product_resource
 
 | 字段 | 类型 | 说明 |
