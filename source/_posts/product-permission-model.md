@@ -63,6 +63,7 @@ date: 2018-11-20 15:54:14
 | product_id | int64 | 商品ID |
 | res_name | string | 资源名称,可用表名存储 |
 | res_id | int64 | 对应资源ID |
+| status | int32 | 上架状态：1 上架，2 下架 |
 
 ## 资源权限 user_permissions
 
