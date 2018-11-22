@@ -10,6 +10,14 @@ date: 2018-11-20 15:54:14
 
 # 商品规则权限数据库设计
 
+## 商品表 category
+
+| 字段 | 类型 | 说明 |
+| --- | --- | --- |
+| id | int64 | product_id |
+| title | string | 名称 |
+
+
 ## 商品表 products
 
 | 字段 | 类型 | 说明 |
@@ -35,6 +43,7 @@ date: 2018-11-20 15:54:14
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
 | id | int64 | id |
+| category_id | int64 | 商品分类 |
 | sku_id | int64 | sku_id |
 | discount_id | int64 | discount_id |
 | start_time | datetime | 开始时间 |
@@ -47,6 +56,7 @@ date: 2018-11-20 15:54:14
 | 字段 | 类型 | 说明 |
 | --- | --- | --- |
 | id | int64 | sku_id |
+| category_id | int64 | 商品分类 |
 | title | string | 名称 |
 | user_type | int | 适用用户类型 |
 | discount_type | int | 优惠类型：百分比打折，立减 |
@@ -95,7 +105,6 @@ date: 2018-11-20 15:54:14
 | rollback_time | datetime | 回退时间 |
 | created_at | datetime | 创建时间 |
 | updated_at | datetime | 更新时间 |
-
 
 ## 订单 orders
 
