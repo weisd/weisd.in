@@ -104,7 +104,7 @@ social:
 
 # Custom footer
 mail: im@weisd.in
-copyright: All rights reserved @Weisd
+copyright: All rights reserved @Weisd <a href="http://beian.miit.gov.cn" class="filing" target="_blank">桂ICP备18006008号</a>
 
 # Custom menu. You can specific the path or the card style (only useful for category page).
 # Two kinds of card style: 'project-card', 'article-card',
